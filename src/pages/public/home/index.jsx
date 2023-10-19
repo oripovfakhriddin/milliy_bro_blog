@@ -1,6 +1,6 @@
 import { memo, useEffect, useState } from "react";
 import { Navigate, NavLink } from "react-router-dom";
-import CategoryCard from "../../../components/card/categoryCard";
+import CategoryCard from "../../../components/card/CategoryCard";
 import PopularCard from "../../../components/card/PopularCard";
 import { IMG } from "../../../const";
 import request from "../../../server";
