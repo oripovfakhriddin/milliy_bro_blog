@@ -1,0 +1,124 @@
+#latest {
+  // background: url("https://ap-blog-backend.up.railway.app/upload/652ba7f68250799c53132b10.jpg")
+  //   center no-repeat;
+  background-size: cover !important;
+
+}
+.latest-text {
+  padding-top: 128px;
+  padding-bottom: 192px;
+  h5 {
+    color: var(--Light, #999);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    span {
+      color: var(--Light, #999);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+  }
+  h1 {
+    color: var(--Light, #999);
+
+    /* Display */
+    font-family: Sen;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -2px;
+    padding: 24px 0;
+  }
+  h6 {
+    color: var(--Light, #999);
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    span {
+      color: var(--Yellow, #ffd050);
+
+      /* Body 1 */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+  p {
+    color: var(--Light, #999);
+
+    /* Body 1 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+}
+
+.lastone-btn {
+  color: var(--Black, #232536);
+  font-family: Sen;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  background: var(--Yellow, #ffd050);
+  padding: 16px 48px;
+}
+
+#popular {
+  padding-top: 94px;
+  h2 {
+     padding-bottom: 66px;
+    color: #000;
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: -2px;
+  }
+}
+
+#category {
+   padding-bottom: 73px;
+  h2 {
+    color: var(--Black, #232536);
+
+    /* Heading H2 */
+    font-family: Sen;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: -2px;
+    padding-top: 69px;
+    padding-bottom: 71px;
+  }
+}
+
+
+.img_container{
+  img{
+    width: 100%;
+  }
+}

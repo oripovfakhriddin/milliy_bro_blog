@@ -1,0 +1,32 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+*::after, *::before {
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+
+li {
+   list-style-type: none;
+}
+
+.conatiner{
+   max-width: 1250px;
+   margin: 0 auto;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.nav-link .active {
+  color: brown !important;
+}
+
+main{
+   margin-top: 50px;
+   /* padding-right: 20px; */
+   font-family: 'Sen', sans-serif;
+}
